@@ -1,0 +1,6 @@
+{
+  "name": "iOS Portfolio Showcase",
+  "description": "Giao diện iOS tuyệt đẹp hiển thị và liên kết các dự án GitHub Pages: Web Nấu Ăn, Bản Đồ, và Mua Bán Nông Sản.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
