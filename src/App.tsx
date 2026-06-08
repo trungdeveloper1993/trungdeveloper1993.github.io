@@ -3,6 +3,7 @@ import {
   ChefHat,
   Map,
   ShoppingBag,
+  Coins,
   ExternalLink,
   Heart, 
   Github, 
@@ -40,6 +41,16 @@ const SITES = [
     iconColor: 'text-indigo-600',
     description: 'Cửa hàng cung ứng thực phẩm sạch chuẩn VietGAP trực tiếp từ nông trại.',
     icon: ShoppingBag
+  },
+  {
+    id: 'giavang',
+    title: 'Nhật Kí Mua Vàng',
+    subtitle: 'GoldDiary - Theo dõi giá & nhật ký tích lũy vàng',
+    url: 'https://trungdeveloper1993.github.io/giavang/',
+    bgColor: 'bg-yellow-50 group-hover:bg-yellow-100',
+    iconColor: 'text-yellow-600',
+    description: 'Ghi lại nhật ký mua vàng và theo dõi biến động giá vàng SJC, vàng nhẫn mới nhất.',
+    icon: Coins
   }
 ];
 
