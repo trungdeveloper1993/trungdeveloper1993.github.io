@@ -1,9 +1,10 @@
 import React from 'react';
 import { 
-  ChefHat, 
-  Map, 
-  ShoppingBag, 
-  ExternalLink, 
+  ChefHat,
+  Map,
+  ShoppingBag,
+  Coins,
+  ExternalLink,
   Heart, 
   Github, 
   Sparkles,
@@ -40,6 +41,16 @@ const SITES = [
     iconColor: 'text-indigo-600',
     description: 'Cửa hàng cung ứng thực phẩm sạch chuẩn VietGAP trực tiếp từ nông trại.',
     icon: ShoppingBag
+  },
+  {
+    id: 'giavang',
+    title: 'Web Giá Vàng',
+    subtitle: 'GoldPrice - Cập nhật giá vàng trực tuyến',
+    url: 'https://trungdeveloper1993.github.io/giavang/',
+    bgColor: 'bg-yellow-50 group-hover:bg-yellow-100',
+    iconColor: 'text-yellow-600',
+    description: 'Theo dõi biến động giá vàng SJC, vàng nhẫn và vàng thế giới mới nhất.',
+    icon: Coins
   }
 ];
 
