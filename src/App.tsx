@@ -5,6 +5,7 @@ import {
   ShoppingBag,
   Coins,
   Building2,
+  Bitcoin,
   ExternalLink,
   Heart, 
   Github, 
@@ -62,6 +63,16 @@ const SITES = [
     iconColor: 'text-sky-600',
     description: 'Tra cứu, tư vấn và hỗ trợ giao dịch mua bán, cho thuê bất động sản.',
     icon: Building2
+  },
+  {
+    id: 'muabanbtc',
+    title: 'Mua Bán BTC',
+    subtitle: 'CryptoBTC - Giao dịch Bitcoin & tiền mã hóa',
+    url: 'https://trungdeveloper1993.github.io/muabanbtc/',
+    bgColor: 'bg-orange-50 group-hover:bg-orange-100',
+    iconColor: 'text-orange-600',
+    description: 'Theo dõi giá và hỗ trợ giao dịch mua bán Bitcoin cùng các loại tiền mã hóa.',
+    icon: Bitcoin
   }
 ];
 
