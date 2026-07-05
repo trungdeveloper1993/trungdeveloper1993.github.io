@@ -78,13 +78,13 @@ const SITES = [
 
 export default function App() {
   return (
-    <div className="min-h-screen w-full bg-slate-50/70 text-slate-900 flex flex-col justify-between p-4 sm:p-6 md:p-8 font-sans selection:bg-indigo-100">
+    <div className="min-h-screen w-full bg-slate-50/70 text-slate-900 flex flex-col p-4 sm:p-6 md:p-8 font-sans selection:bg-indigo-100">
       
       {/* Decorative Top Accent Line */}
       <div className="fixed top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-amber-400 via-emerald-400 to-indigo-500 z-50"></div>
 
       {/* Main Container */}
-      <div className="max-w-2xl mx-auto w-full pt-12 pb-16 flex-1 flex flex-col justify-center">
+      <div className="max-w-2xl mx-auto w-full pt-12 pb-10">
         
         {/* Header Block */}
         <div className="text-center space-y-4 mb-10">
@@ -156,7 +156,7 @@ export default function App() {
       </div>
 
       {/* Footer Branding block */}
-      <footer className="text-center py-6 border-t border-slate-100 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-slate-400 max-w-2xl mx-auto w-full">
+      <footer className="mt-auto text-center py-6 border-t border-slate-100 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-slate-400 max-w-2xl mx-auto w-full">
         <div>
           <span>© 2026. Thiết kế tỉ mỉ bởi </span>
           <a
