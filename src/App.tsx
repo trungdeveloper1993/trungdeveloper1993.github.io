@@ -4,6 +4,7 @@ import {
   Map,
   ShoppingBag,
   Coins,
+  Building2,
   ExternalLink,
   Heart, 
   Github, 
@@ -51,6 +52,16 @@ const SITES = [
     iconColor: 'text-yellow-600',
     description: 'Ghi lại nhật ký mua vàng và theo dõi biến động giá vàng SJC, vàng nhẫn mới nhất.',
     icon: Coins
+  },
+  {
+    id: 'bds',
+    title: 'Hỗ Trợ BĐS',
+    subtitle: 'RealEstate - Tư vấn & hỗ trợ bất động sản',
+    url: 'https://trungdeveloper1993.github.io/bds/',
+    bgColor: 'bg-sky-50 group-hover:bg-sky-100',
+    iconColor: 'text-sky-600',
+    description: 'Tra cứu, tư vấn và hỗ trợ giao dịch mua bán, cho thuê bất động sản.',
+    icon: Building2
   }
 ];
 
