@@ -9,8 +9,6 @@
 /* Custom smooth styling tweaks */
 body {
   font-family: var(--font-sans);
-  overflow: hidden;
-  user-select: none;
 }
 
 /* Immersive background style */
