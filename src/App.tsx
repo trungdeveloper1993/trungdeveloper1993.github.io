@@ -6,6 +6,7 @@ import {
   Coins,
   Building2,
   Bitcoin,
+  Wallet,
   ExternalLink,
   Heart, 
   Github, 
@@ -73,6 +74,16 @@ const SITES = [
     iconColor: 'text-orange-600',
     description: 'Theo dõi giá và hỗ trợ giao dịch mua bán Bitcoin cùng các loại tiền mã hóa.',
     icon: Bitcoin
+  },
+  {
+    id: 'nhatkytaichinh',
+    title: 'Nhật Ký Tài Chính',
+    subtitle: 'FinanceLog - Quản lý thu chi & ngân sách',
+    url: 'https://trungdeveloper1993.github.io/nhatkytaichinh/',
+    bgColor: 'bg-teal-50 group-hover:bg-teal-100',
+    iconColor: 'text-teal-600',
+    description: 'Ghi chép thu chi hằng ngày, theo dõi ngân sách và quản lý tài chính cá nhân.',
+    icon: Wallet
   }
 ];
 
