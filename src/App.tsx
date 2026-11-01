@@ -7,6 +7,7 @@ import {
   Building2,
   Bitcoin,
   Wallet,
+  Palette,
   ExternalLink,
   Heart, 
   Github, 
@@ -84,6 +85,16 @@ const SITES = [
     iconColor: 'text-teal-600',
     description: 'Ghi chép thu chi hằng ngày, theo dõi ngân sách và quản lý tài chính cá nhân.',
     icon: Wallet
+  },
+  {
+    id: 'xuongart',
+    title: 'Xưởng Art',
+    subtitle: 'ArtStudio - Sáng tạo & thiết kế nghệ thuật',
+    url: 'https://trungdeveloper1993.github.io/xuongart/',
+    bgColor: 'bg-fuchsia-50 group-hover:bg-fuchsia-100',
+    iconColor: 'text-fuchsia-600',
+    description: 'Không gian sáng tạo, thiết kế và trưng bày các tác phẩm nghệ thuật.',
+    icon: Palette
   }
 ];
 
